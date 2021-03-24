@@ -4,15 +4,15 @@ package com.example.aworldtoyou;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.scheduling.annotation.EnableScheduling;
-import org.telegram.telegrambots.ApiContextInitializer;
+//import org.telegram.telegrambots.ApiContextInitializer;
 
 
-@EnableScheduling
+//@EnableScheduling
 @SpringBootApplication
 public class AworldtoyouApplication {
 
     public static void main(String[] args) {
-        ApiContextInitializer.init();
+//        ApiContextInitializer.init();
         SpringApplication.run(AworldtoyouApplication.class, args);
     }
 
